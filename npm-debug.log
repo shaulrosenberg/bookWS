@@ -1,0 +1,357 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mongoose' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json ex1@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'mongoose', null ]
+8 verbose cache add name=undefined spec="mongoose" args=["mongoose",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'mongoose',
+9 verbose parsed url   path: 'mongoose',
+9 verbose parsed url   href: 'mongoose' }
+10 silly lockFile f25dbdd3-mongoose mongoose
+11 verbose lock mongoose C:\Users\Shaul\AppData\Roaming\npm-cache\f25dbdd3-mongoose.lock
+12 silly lockFile f25dbdd3-mongoose mongoose
+13 silly lockFile f25dbdd3-mongoose mongoose
+14 verbose addNamed [ 'mongoose', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 3bb0fc31-mongoose mongoose@
+17 verbose lock mongoose@ C:\Users\Shaul\AppData\Roaming\npm-cache\3bb0fc31-mongoose.lock
+18 silly addNameRange { name: 'mongoose', range: '*', hasData: false }
+19 verbose request where is /mongoose
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id feb8fef82ed5e4ab
+22 verbose url raw /mongoose
+23 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+24 verbose url resolved https://registry.npmjs.org/mongoose
+25 verbose request where is https://registry.npmjs.org/mongoose
+26 info trying registry request attempt 1 at 18:39:49
+27 verbose etag "5VB7QBSK6LSMGHBOHPC4BZKW6"
+28 http GET https://registry.npmjs.org/mongoose
+29 http 200 https://registry.npmjs.org/mongoose
+30 verbose bad json {"_id":"mongoose","_rev":"928-e7871b14d0f21fb59b8d012559317804","name":"mongoose","dist-tags":{"latest":"4.0.3","unstable":"3.9.7","legacy":"3.8.28"},"versions":{"0.0.1":{"name":"mongoose","version":"0.0.1","author":{"name":"LearnBoost"},"email":"dev@learnboost.com","licenses":[{"type":"The MIT License","url":"http://www.opensource.org/licenses/mit-license.php"}],"githubName":"mongoose","type":"tar","location":"http://github.com/LearnBoost/mongoose/tarball/master","main":"./mongoose","keywords":["mongoose","mongo","mongodb","orm","node"],"engines":["node"],"directories":{"lib":"./lib"},"_id":"mongoose@0.0.1","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/mongoose/-/mongoose-0.0.1.tgz","shasum":"8462f227f9e5121671a1ea156eeb254e1b846a41"}},"0.0.2":{"name":"mongoose","version":"0.0.2","author":{"name":"LearnBoost"},"email":"dev@learnboost.com","licenses":[{"type":"The MIT License","url":"http://www.opensource.org/licenses/mit-license.php"}],"githubName":"mongoose","type":"tar","location":"http://github.com/LearnBoost/mongoose/tarball/master","main":"./mongoose","keywords":["mongoose","mongo","mongodb","orm","node"],"engines":["node"],"directories":{"lib":"./lib"},"_id":"mongoose@0.0.2","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/mongoose/-/mongoose-0.0.2.tgz","shasum":"1b2cf66cff90ade9967a81b3a91e57939c587556"}},"0.0.3":{"name":"mongoose","description":"ORM for MongoDB","version":"0.0.3","author":{"name":"LearnBoost","email":"dev@learnboost.com"},"dependencies":{"mongodb":"0.7.9"},"keywords":["mongoose","mongo","mongodb","orm","nosql"],"directories":{"lib":"./lib"},"scripts":{"test":"make test"},"engines":{"node":">= 0.1.101"},"main":"./mongoose","licenses":[{"type":"The MIT License","url":"http://www.opensource.org/licenses/mit-license.php"}],"_id":"mongoose@0.0.3","_nodeSupported":true,"_npmVersion":"0.2.7-2","_nodeVersion":"v0.3.1-pre","dist":{"tarball":"http://registry.npmjs.org/mongoose/-/mongoose-0.0.3.tgz","shasum":"b019fa2dbc77d91876739c331823cc9b8c777d8f"}},"0.0.4":{"name":"mongoose","description":"ORM for MongoDB","version":"0.0.4","author":{"name":"LearnBoost","email":"dev@learnboost.com"},"dependencies":{"mongodb":"0.7.9"},"keywords":["mongoose","mongo","mongodb","orm","nosql"],"directories":{"lib":"./lib"},"scripts":{"test":"make test"},"engines":{"node":">= 0.1.101"},"main":"./mongoose","licenses":[{"type":"The MIT License","url":"http://www.opensource.org/licenses/mit-license.php"}],"_id":"mongoose@0.0.4","_nodeSupported":true,"_npmVersion":"0.2.12-1","_nodeVersion":"v0.2.5","dist":{"shasum":"028ca31c0f293c3440565e79b1f92fd23ac54b28","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-0.0.4.tgz"}},"0.0.5":{"name":"mongoose","description":"ORM for MongoDB","version":"0.0.5","author":{"name":"LearnBoost","email":"dev@learnboost.com"},"dependencies":{"mongodb":"0.7.9"},"keywords":["mongoose","mongo","mongodb","orm","nosql"],"directories":{"lib":"./lib"},"scripts":{"test":"make test"},"engines":{"node":">= 0.1.101"},"main":"./mongoose","licenses":[{"type":"The MIT License","url":"http://www.opensource.org/licenses/mit-license.php"}],"_id":"mongoose@0.0.5","_engineSupported":true,"_npmVersion":"0.2.13-3","_nodeVersion":"v0.2.5","dist":{"shasum":"f3133bb6670c65767443d14e9a4e851b8132795c","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-0.0.5.tgz"}},"1.0.0":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.0","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.0","_engineSupported":true,"_npmVersion":"0.2.14-6","_nodeVersion":"v0.2.6","modules":{"collection.js":"lib/mongoose/collection.js","compat.js":"lib/mongoose/compat.js","connection.js":"lib/mongoose/connection.js","document.js":"lib/mongoose/document.js","error.js":"lib/mongoose/error.js","index.js":"lib/mongoose/index.js","model.js":"lib/mongoose/model.js","promise.js":"lib/mongoose/promise.js","query.js":"lib/mongoose/query.js","schema.js":"lib/mongoose/schema.js","schematype.js":"lib/mongoose/schematype.js","utils.js":"lib/mongoose/utils.js","virtualtype.js":"lib/mongoose/virtualtype.js","schema/array.js":"lib/mongoose/schema/array.js","schema/boolean.js":"lib/mongoose/schema/boolean.js","schema/date.js":"lib/mongoose/schema/date.js","schema/documentarray.js":"lib/mongoose/schema/documentarray.js","schema/index.js":"lib/mongoose/schema/index.js","schema/mixed.js":"lib/mongoose/schema/mixed.js","schema/number.js":"lib/mongoose/schema/number.js","schema/objectid.js":"lib/mongoose/schema/objectid.js","schema/string.js":"lib/mongoose/schema/string.js","types/array.js":"lib/mongoose/types/array.js","types/document.js":"lib/mongoose/types/document.js","types/documentarray.js":"lib/mongoose/types/documentarray.js","types/index.js":"lib/mongoose/types/index.js","types/number.js":"lib/mongoose/types/number.js","types/objectid.js":"lib/mongoose/types/objectid.js","drivers/node-mongodb-native/collection.js":"lib/mongoose/drivers/node-mongodb-native/collection.js","drivers/node-mongodb-native/connection.js":"lib/mongoose/drivers/node-mongodb-native/connection.js","drivers/node-mongodb-native/objectid.js":"lib/mongoose/drivers/node-mongodb-native/objectid.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"db880410fb75f98e2069e8d8ed3591f729fe26c6","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.0.tgz"}},"1.0.1":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.1","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.1","_engineSupported":true,"_npmVersion":"0.2.14-6","_nodeVersion":"v0.2.6","modules":{"compat.js":"lib/mongoose/compat.js","collection.js":"lib/mongoose/collection.js","connection.js":"lib/mongoose/connection.js","document.js":"lib/mongoose/document.js","error.js":"lib/mongoose/error.js","index.js":"lib/mongoose/index.js","model.js":"lib/mongoose/model.js","promise.js":"lib/mongoose/promise.js","query.js":"lib/mongoose/query.js","schema.js":"lib/mongoose/schema.js","schematype.js":"lib/mongoose/schematype.js","utils.js":"lib/mongoose/utils.js","virtualtype.js":"lib/mongoose/virtualtype.js","schema/array.js":"lib/mongoose/schema/array.js","schema/boolean.js":"lib/mongoose/schema/boolean.js","schema/date.js":"lib/mongoose/schema/date.js","schema/documentarray.js":"lib/mongoose/schema/documentarray.js","schema/index.js":"lib/mongoose/schema/index.js","schema/mixed.js":"lib/mongoose/schema/mixed.js","schema/number.js":"lib/mongoose/schema/number.js","schema/objectid.js":"lib/mongoose/schema/objectid.js","schema/string.js":"lib/mongoose/schema/string.js","types/array.js":"lib/mongoose/types/array.js","types/document.js":"lib/mongoose/types/document.js","types/documentarray.js":"lib/mongoose/types/documentarray.js","types/index.js":"lib/mongoose/types/index.js","types/number.js":"lib/mongoose/types/number.js","types/objectid.js":"lib/mongoose/types/objectid.js","drivers/node-mongodb-native/collection.js":"lib/mongoose/drivers/node-mongodb-native/collection.js","drivers/node-mongodb-native/connection.js":"lib/mongoose/drivers/node-mongodb-native/connection.js","drivers/node-mongodb-native/objectid.js":"lib/mongoose/drivers/node-mongodb-native/objectid.js"},"files":[""],"_defaultsLoaded":true,"dist":{"shasum":"abd2a96a24fca89340a2129939a7b22c55564de1","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.1.tgz"}},"1.0.2":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.2","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.2","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"2e9c66cd88d75956f6ec984989425654160db7e3","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.2.tgz"}},"0.0.6":{"name":"mongoose","description":"ORM for MongoDB","version":"0.0.6","author":{"name":"LearnBoost","email":"dev@learnboost.com"},"dependencies":{"mongodb":"0.7.9"},"keywords":["mongoose","mongo","mongodb","orm","nosql"],"directories":{"lib":"./lib"},"scripts":{"test":"make test"},"engines":{"node":">= 0.1.101"},"main":"./mongoose","licenses":[{"type":"The MIT License","url":"http://www.opensource.org/licenses/mit-license.php"}],"_id":"mongoose@0.0.6","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"6cb67d8ca268120204b9e6d5182f152f4d5662de","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-0.0.6.tgz"}},"1.0.3":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.3","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.3","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"b0fe1f451d89964e69ce09f859541a7c1c8e99e2","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.3.tgz"}},"1.0.4":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.4","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.4","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"79cf6ad22f4c17574190ad2a4dcf4ebac9f8f86d","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.4.tgz"}},"1.0.5":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.5","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.5","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"661696541b97bc714d2d99dc8fd3239d83c84b30","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.5.tgz"}},"1.0.6":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.6","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.6","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"3ccf7097e101c49cf494694e4e9639b1d16b9cde","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.6.tgz"}},"1.0.7":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.7","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.7","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.3.8","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"b3573930a22066fbf3ab745a79329d5eae75b8ae","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.7.tgz"}},"1.0.8":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.8","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.8","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"9556abebbd57d9f01d0750fd0e8978a0a1ee9577","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.8.tgz"}},"1.0.10":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.10","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.10","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"6a563623e6c5f3ed969964f1695d189e16b49497","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.10.tgz"}},"1.0.11":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.11","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.11","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"33fa85eadf18d85bb08a02f15a3ac05a45a45aae","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.11.tgz"}},"1.0.12":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.12","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.12","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"40c98744cb779d1c9da806a1714c1871d8bd0695","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.12.tgz"}},"1.0.13":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.13","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.13","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"25a37b15ad5b2f21ae0e95ae1ee623e14e985eb8","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.13.tgz"}},"1.0.14":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.14","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.14","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"ee4b707c4a3d073d00974a5a71fafc170bbb52b5","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.14.tgz"}},"1.0.15":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.15","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.15","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.4.0","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"1afd9fdd818e760827d1f3357dcb2c875ad4b7aa","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.15.tgz"}},"1.0.16":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.0.16","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.0.16","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.4.0","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"6ecacaf117d826ee091f187193a21c530bbcef9b","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.0.16.tgz"}},"1.1.0":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.0","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.0","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"b107e76f818d33be18670a83a0b70a90080624eb","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.0.tgz"}},"1.1.1":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.1","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.1","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.4.1","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"6c6e2a6f54da7403d7b5dfac7c0d4bf0d1a6a7e9","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.1.tgz"}},"1.1.2":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.2","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.2","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.2.6","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"e257c009ee8d23cbbed2f16f6e4d4de6b73aaf4a","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.2.tgz"}},"1.1.3":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.3","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.3","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.4.2","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"eacdfe89bde4408edeeb134c75d7dfc24d0841d2","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.3.tgz"}},"1.1.4":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.4","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.4","_engineSupported":true,"_npmVersion":"0.2.18","_nodeVersion":"v0.4.2","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"cc7a24114f1d481a91b0fd7061fe6e257a972324","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.4.tgz"}},"1.1.5":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.5","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.5","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.2","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"e8537afbc910d3d99a651ad286734a4af4c9241f","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.5.tgz"}},"1.1.6":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.6","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.6","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"1dfd166e097ec48aea136bebdb2c01aa4745d8f0","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.6.tgz"}},"1.1.7":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.7","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.7","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"c91c9222b1f29573a868cb393d28d90ff7a58520","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.7.tgz"}},"1.1.8":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.8","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.8","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"05a73f125299fa06b28d46f20039f0b33d83148c","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.8.tgz"}},"1.1.9":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.9","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.9","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"83ce05a43c040e1fad87b21a70954f2139d22546","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.9.tgz"}},"1.1.10":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.10","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.10","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"56cdfe612783d06b9c1e572aba6dc268e8efe362","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.10.tgz"}},"1.1.11":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.11","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.11","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"4ec361814189ae16d07a31cf3c1b52c7e841cd3f","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.11.tgz"}},"1.1.12":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.12","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.12","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"b4162426fcf73dfb367ad1fa467f28d58cacbce0","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.12.tgz"}},"1.1.13":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.13","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.13","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"abed73067a58a4d52bc3210a9fd50c3490d04a8b","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.13.tgz"}},"1.1.14":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.14","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.14","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"b23ea5654609dbb86d9daf6b88b2ebb7c0896345","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.14.tgz"}},"1.1.15":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.15","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.15","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"0c8b5f993f22b0fb9b7104118f33271f6b5a89bb","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.15.tgz"}},"1.1.16":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.16","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.16","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.4","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"ca6bc79bc1a2b4ec8503a1e0d0d752f84411f8bb","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.16.tgz"}},"1.1.17":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.17","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.17","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.4","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"3e4350579b0bb7cb0fa4291e7d1bbd4cb3ec5747","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.17.tgz"}},"1.1.18":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.18","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.18","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.4","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"98390f899dae523c51cf33d75f96f0adeb9f743a","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.18.tgz"}},"1.1.19":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.19","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.19","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.4","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"dcf2a88e30b063ec72bc1785c271920762d75730","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.19.tgz"}},"1.1.20":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.20","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.20","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.4","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"a9fbbfc3ed8d82ba57a16d4f00cbb86b34cbfc33","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.20.tgz"}},"1.1.21":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.21","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.21","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.4","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"4a8a585c92c7d7b3e858aeedc7195a752c8c1eb7","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.21.tgz"}},"1.1.22":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.22","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.22","_engineSupported":true,"_npmVersion":"0.3.15","_nodeVersion":"v0.4.4","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"8434dfd92a7df5f65b476daa482bdc3f186e71eb","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.22.tgz"}},"1.1.23":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.23","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{},"directories":{"lib":"./lib/mongoose"},"scripts":{"test":"make test"},"main":"./index.js","engines":{"node":">= 0.2.0"},"_id":"mongoose@1.1.23","_engineSupported":true,"_npmVersion":"0.3.18","_nodeVersion":"v0.4.3","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"6ea7f1fa0eefc1b15c64d1dd1fec7b557ae3d83f","tarball":"http://registry.npmjs.org/mongoose/-/mongoose-1.1.23.tgz"}},"1.1.24":{"name":"mongoose","description":"Mongoose MongoDB ORM","version":"1.1.24","author":{"name":"Guillermo Rauch","email":"guillermo@learnboost.com"},"keywords":["mongodb","mongoose","orm","data","datastore","nosql"],"dependencies":{
+31 error registry error parsing json
+32 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+32 verbose headers   etag: '"CJX182S87XPJS9GQ6TZ79CH62"',
+32 verbose headers   'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=60',
+32 verbose headers   'content-length': '318079',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Thu, 21 May 2015 15:40:00 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   age: '59',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-ams4135-AMS',
+32 verbose headers   'x-cache': 'HIT',
+32 verbose headers   'x-cache-hits': '1',
+32 verbose headers   'x-timer': 'S1432222800.461083,VS0,VE1',
+32 verbose headers   vary: 'Accept' }
+33 silly registry.get cb [ 304, undefined ]
+34 verbose etag https://registry.npmjs.org/mongoose from cache
+35 silly addNameRange number 2 { name: 'mongoose', range: '*', hasData: true }
+36 silly addNameRange versions [ 'mongoose',
+36 silly addNameRange   [ '0.0.1',
+36 silly addNameRange     '0.0.2',
+36 silly addNameRange     '0.0.3',
+36 silly addNameRange     '0.0.4',
+36 silly addNameRange     '0.0.5',
+36 silly addNameRange     '1.0.0',
+36 silly addNameRange     '1.0.1',
+36 silly addNameRange     '1.0.2',
+36 silly addNameRange     '0.0.6',
+36 silly addNameRange     '1.0.3',
+36 silly addNameRange     '1.0.4',
+36 silly addNameRange     '1.0.5',
+36 silly addNameRange     '1.0.6',
+36 silly addNameRange     '1.0.7',
+36 silly addNameRange     '1.0.8',
+36 silly addNameRange     '1.0.10',
+36 silly addNameRange     '1.0.11',
+36 silly addNameRange     '1.0.12',
+36 silly addNameRange     '1.0.13',
+36 silly addNameRange     '1.0.14',
+36 silly addNameRange     '1.0.15',
+36 silly addNameRange     '1.0.16',
+36 silly addNameRange     '1.1.0',
+36 silly addNameRange     '1.1.1',
+36 silly addNameRange     '1.1.2',
+36 silly addNameRange     '1.1.3',
+36 silly addNameRange     '1.1.4',
+36 silly addNameRange     '1.1.5',
+36 silly addNameRange     '1.1.6',
+36 silly addNameRange     '1.1.7',
+36 silly addNameRange     '1.1.8',
+36 silly addNameRange     '1.1.9',
+36 silly addNameRange     '1.1.10',
+36 silly addNameRange     '1.1.11',
+36 silly addNameRange     '1.1.12',
+36 silly addNameRange     '1.1.13',
+36 silly addNameRange     '1.1.14',
+36 silly addNameRange     '1.1.15',
+36 silly addNameRange     '1.1.16',
+36 silly addNameRange     '1.1.17',
+36 silly addNameRange     '1.1.18',
+36 silly addNameRange     '1.1.19',
+36 silly addNameRange     '1.1.20',
+36 silly addNameRange     '1.1.21',
+36 silly addNameRange     '1.1.22',
+36 silly addNameRange     '1.1.23',
+36 silly addNameRange     '1.1.24',
+36 silly addNameRange     '1.1.25',
+36 silly addNameRange     '1.2.0',
+36 silly addNameRange     '1.3.0',
+36 silly addNameRange     '1.3.1',
+36 silly addNameRange     '1.3.2',
+36 silly addNameRange     '1.3.3',
+36 silly addNameRange     '1.3.4',
+36 silly addNameRange     '1.3.5',
+36 silly addNameRange     '1.3.6',
+36 silly addNameRange     '1.3.7',
+36 silly addNameRange     '1.4.0',
+36 silly addNameRange     '1.5.0',
+36 silly addNameRange     '1.6.0',
+36 silly addNameRange     '1.7.2',
+36 silly addNameRange     '1.7.3',
+36 silly addNameRange     '1.7.4',
+36 silly addNameRange     '1.8.0',
+36 silly addNameRange     '1.8.1',
+36 silly addNameRange     '1.8.2',
+36 silly addNameRange     '1.8.3',
+36 silly addNameRange     '1.8.4',
+36 silly addNameRange     '2.0.0',
+36 silly addNameRange     '2.0.1',
+36 silly addNameRange     '2.0.2',
+36 silly addNameRange     '2.0.3',
+36 silly addNameRange     '2.0.4',
+36 silly addNameRange     '2.1.0',
+36 silly addNameRange     '2.1.1',
+36 silly addNameRange     '2.1.2',
+36 silly addNameRange     '2.1.3',
+36 silly addNameRange     '2.1.4',
+36 silly addNameRange     '2.2.0',
+36 silly addNameRange     '2.2.1',
+36 silly addNameRange     '2.2.2',
+36 silly addNameRange     '2.2.3',
+36 silly addNameRange     '2.2.4',
+36 silly addNameRange     '2.3.0',
+36 silly addNameRange     '2.3.1',
+36 silly addNameRange     '2.3.2',
+36 silly addNameRange     '2.3.3',
+36 silly addNameRange     '2.3.4',
+36 silly addNameRange     '2.3.5',
+36 silly addNameRange     '2.3.6',
+36 silly addNameRange     '2.3.7',
+36 silly addNameRange     '2.3.8',
+36 silly addNameRange     '2.3.9',
+36 silly addNameRange     '2.3.10',
+36 silly addNameRange     '2.3.11',
+36 silly addNameRange     '2.3.12',
+36 silly addNameRange     '2.3.13',
+36 silly addNameRange     '2.4.0',
+36 silly addNameRange     '2.4.1',
+36 silly addNameRange     '2.4.2',
+36 silly addNameRange     '2.4.3',
+36 silly addNameRange     '2.4.4',
+36 silly addNameRange     '2.4.5',
+36 silly addNameRange     '2.4.6',
+36 silly addNameRange     '2.4.7',
+36 silly addNameRange     '2.4.8',
+36 silly addNameRange     '2.4.9',
+36 silly addNameRange     '2.4.10',
+36 silly addNameRange     '2.5.0',
+36 silly addNameRange     '2.5.1',
+36 silly addNameRange     '2.5.2',
+36 silly addNameRange     '2.5.3',
+36 silly addNameRange     '2.5.4',
+36 silly addNameRange     '2.5.5',
+36 silly addNameRange     '2.5.6',
+36 silly addNameRange     '2.5.7',
+36 silly addNameRange     '2.5.8',
+36 silly addNameRange     '2.5.9',
+36 silly addNameRange     '2.5.10',
+36 silly addNameRange     '2.5.11',
+36 silly addNameRange     '2.5.12',
+36 silly addNameRange     '2.5.13',
+36 silly addNameRange     '2.5.14',
+36 silly addNameRange     '2.6.0',
+36 silly addNameRange     '2.6.1',
+36 silly addNameRange     '2.6.2',
+36 silly addNameRange     '2.6.3',
+36 silly addNameRange     '2.6.4',
+36 silly addNameRange     '2.6.5',
+36 silly addNameRange     '2.6.6',
+36 silly addNameRange     '2.6.7',
+36 silly addNameRange     '2.6.8',
+36 silly addNameRange     '2.7.0',
+36 silly addNameRange     '2.7.1',
+36 silly addNameRange     '2.7.2',
+36 silly addNameRange     '2.7.4',
+36 silly addNameRange     '2.7.3',
+36 silly addNameRange     '3.0.0',
+36 silly addNameRange     '3.0.1',
+36 silly addNameRange     '3.0.2',
+36 silly addNameRange     '2.8.0',
+36 silly addNameRange     '3.0.3',
+36 silly addNameRange     '3.1.0',
+36 silly addNameRange     '2.8.1',
+36 silly addNameRange     '3.1.1',
+36 silly addNameRange     '2.8.2',
+36 silly addNameRange     '2.8.3',
+36 silly addNameRange     '2.9.0',
+36 silly addNameRange     '3.2.0',
+36 silly addNameRange     '2.9.1',
+36 silly addNameRange     '3.2.1',
+36 silly addNameRange     '2.9.2',
+36 silly addNameRange     '3.2.2',
+36 silly addNameRange     '3.3.0',
+36 silly addNameRange     '3.3.1',
+36 silly addNameRange     '2.9.3',
+36 silly addNameRange     '3.4.0',
+36 silly addNameRange     '2.9.4',
+36 silly addNameRange     '2.9.5',
+36 silly addNameRange     '3.5.0',
+36 silly addNameRange     '3.5.1',
+36 silly addNameRange     '3.5.2',
+36 silly addNameRange     '3.5.3',
+36 silly addNameRange     '2.9.6',
+36 silly addNameRange     '2.9.7',
+36 silly addNameRange     '3.5.4',
+36 silly addNameRange     '3.5.5',
+36 silly addNameRange     '2.9.8',
+36 silly addNameRange     '2.9.9',
+36 silly addNameRange     '3.5.6',
+36 silly addNameRange     '3.5.7',
+36 silly addNameRange     '3.5.8',
+36 silly addNameRange     '2.9.10',
+36 silly addNameRange     '3.5.9',
+36 silly addNameRange     '3.6.2',
+36 silly addNameRange     '3.5.10',
+36 silly addNameRange     '3.6.3',
+36 silly addNameRange     '3.5.11',
+36 silly addNameRange     '3.6.4',
+36 silly addNameRange     '3.6.5',
+36 silly addNameRange     '3.6.6',
+36 silly addNameRange     '3.6.7',
+36 silly addNameRange     '3.5.12',
+36 silly addNameRange     '3.6.8',
+36 silly addNameRange     '3.6.9',
+36 silly addNameRange     '3.6.10',
+36 silly addNameRange     '3.5.13',
+36 silly addNameRange     '3.5.14',
+36 silly addNameRange     '3.6.11',
+36 silly addNameRange     '3.6.12',
+36 silly addNameRange     '3.6.13',
+36 silly addNameRange     '3.6.14',
+36 silly addNameRange     '3.6.15',
+36 silly addNameRange     '3.5.15',
+36 silly addNameRange     '3.7.0',
+36 silly addNameRange     '3.6.16',
+36 silly addNameRange     '3.5.16',
+36 silly addNameRange     '3.6.17',
+36 silly addNameRange     '3.7.2',
+36 silly addNameRange     '3.0.0-alpha1',
+36 silly addNameRange     '3.0.0-alpha2',
+36 silly addNameRange     '3.0.0-rc0',
+36 silly addNameRange     '3.6.0-rc0',
+36 silly addNameRange     '3.6.0-rc1',
+36 silly addNameRange     '3.6.18',
+36 silly addNameRange     '3.7.3',
+36 silly addNameRange     '3.6.19',
+36 silly addNameRange     '3.6.20',
+36 silly addNameRange     '3.7.4',
+36 silly addNameRange     '3.8.0',
+36 silly addNameRange     '3.8.1',
+36 silly addNameRange     '3.8.2',
+36 silly addNameRange     '3.8.3',
+36 silly addNameRange     '3.8.4',
+36 silly addNameRange     '3.8.5',
+36 silly addNameRange     '3.8.6',
+36 silly addNameRange     '3.8.7',
+36 silly addNameRange     '3.8.8',
+36 silly addNameRange     '3.8.9',
+36 silly addNameRange     '3.8.10',
+36 silly addNameRange     '3.8.11',
+36 silly addNameRange     '3.9.0',
+36 silly addNameRange     '3.8.12',
+36 silly addNameRange     '3.8.13',
+36 silly addNameRange     '3.8.14',
+36 silly addNameRange     '3.8.15',
+36 silly addNameRange     '3.9.1',
+36 silly addNameRange     '3.8.16',
+36 silly addNameRange     '3.9.2',
+36 silly addNameRange     '3.8.17',
+36 silly addNameRange     '3.9.3',
+36 silly addNameRange     '3.8.18',
+36 silly addNameRange     '3.9.4',
+36 silly addNameRange     '3.8.19',
+36 silly addNameRange     '3.9.5',
+36 silly addNameRange     '3.8.20',
+36 silly addNameRange     '3.9.6',
+36 silly addNameRange     '3.8.21',
+36 silly addNameRange     '3.9.7',
+36 silly addNameRange     '3.8.22',
+36 silly addNameRange     '4.0.0-rc0',
+36 silly addNameRange     '4.0.0-rc1',
+36 silly addNameRange     '3.8.23',
+36 silly addNameRange     '4.0.0-rc2',
+36 silly addNameRange     '3.8.24',
+36 silly addNameRange     '4.0.0-rc3',
+36 silly addNameRange     '3.8.25',
+36 silly addNameRange     '4.0.0-rc4',
+36 silly addNameRange     '4.0.0',
+36 silly addNameRange     '4.0.1',
+36 silly addNameRange     '3.8.26',
+36 silly addNameRange     '3.8.27',
+36 silly addNameRange     '4.0.2',
+36 silly addNameRange     '3.8.28',
+36 silly addNameRange     '4.0.3' ] ]
+37 verbose addNamed [ 'mongoose', '4.0.3' ]
+38 verbose addNamed [ '4.0.3', '4.0.3' ]
+39 silly lockFile 48f96a9a-mongoose-4-0-3 mongoose@4.0.3
+40 verbose lock mongoose@4.0.3 C:\Users\Shaul\AppData\Roaming\npm-cache\48f96a9a-mongoose-4-0-3.lock
+41 silly lockFile 44d1d090--org-mongoose-mongoose-4-0-3-tgz https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz
+42 verbose lock https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz C:\Users\Shaul\AppData\Roaming\npm-cache\44d1d090--org-mongoose-mongoose-4-0-3-tgz.lock
+43 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz',
+43 verbose addRemoteTarball   '719850305d8472cf4a917e37d27acbc26d4eb705' ]
+44 info retry fetch attempt 1 at 18:42:12
+45 verbose fetch to= C:\Users\Shaul\AppData\Local\Temp\npm-6732-F5vsWX9_\registry.npmjs.org\mongoose\-\mongoose-4.0.3.tgz
+46 http GET https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz
+47 http 200 https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz
+48 silly lockFile 44d1d090--org-mongoose-mongoose-4-0-3-tgz https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz
+49 silly lockFile 44d1d090--org-mongoose-mongoose-4-0-3-tgz https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz
+50 silly lockFile 48f96a9a-mongoose-4-0-3 mongoose@4.0.3
+51 silly lockFile 48f96a9a-mongoose-4-0-3 mongoose@4.0.3
+52 silly lockFile 3bb0fc31-mongoose mongoose@
+53 silly lockFile 3bb0fc31-mongoose mongoose@
+54 error Error: shasum check failed for C:\Users\Shaul\AppData\Local\Temp\npm-6732-F5vsWX9_\registry.npmjs.org\mongoose\-\mongoose-4.0.3.tgz
+54 error Expected: 719850305d8472cf4a917e37d27acbc26d4eb705
+54 error Actual:   a22507db6ba52bb1072e291734ba76b774951285
+54 error From:     https://registry.npmjs.org/mongoose/-/mongoose-4.0.3.tgz
+54 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:38:8
+54 error     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:85:7)
+54 error     at ReadStream.emit (events.js:117:20)
+54 error     at _stream_readable.js:943:16
+54 error     at process._tickCallback (node.js:419:13)
+55 error If you need help, you may report this *entire* log,
+55 error including the npm and node versions, at:
+55 error     <http://github.com/npm/npm/issues>
+56 error System Windows_NT 6.1.7601
+57 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "mongoose"
+58 error cwd C:\Users\Shaul\Desktop\ws_ex1
+59 error node -v v0.10.33
+60 error npm -v 1.4.28
+61 verbose exit [ 1, true ]
